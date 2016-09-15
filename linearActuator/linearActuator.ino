@@ -10,7 +10,8 @@ boolean bButtonSwitch= false;
 // 1050 MIN -> 1950 MAX
 Servo linearActuator;
 
-void setup() {
+void setup()
+{
   if (debugMode) {
     Serial.begin(9600);
   }
@@ -21,7 +22,8 @@ void setup() {
   linearActuator.attach(SERVO_PIN);
 }
 
-void loop() {
+void loop()
+{
   int aButtonStatus = digitalRead(A_BUTTON_PIN);
   int bButtonStatus = digitalRead(B_BUTTON_PIN);
   //
