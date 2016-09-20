@@ -14,7 +14,7 @@ Create a [new merge request][2]! Make sure to follow the guidelines.
 ## Merge Request Guidelines
 Make sure to have atomic commits and contextual commit messages!
 
-Check out this [awesome blog post by Chris Beams][3] for more information.
+[Check out this awesome blog post by Chris Beams for more information.][3]
 
 [1]: https://gitlab.com/tuxredux/libinolock/issues/new
 [2]: https://gitlab.com/tuxredux/libinolock/merge_requests/new

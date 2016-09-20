@@ -1,5 +1,5 @@
 # libinolock
-Arduino Lock Library. Remote Controlled!
+Arduino Lock Library. Remote Controlled Security!
 
 ## Features
  - 315MHz RF Momentary Receiver Support
@@ -44,15 +44,9 @@ Arduino Lock Library. Remote Controlled!
 ## Installation
 
 ### Software
-    @:~$ mkdir -p ~/sketchbook
-    @:~$ cd ~/sketchbook
-    @:~/sketchbook$ git clone https://gitlab.com/tuxredux/libinolock.git
-    Cloning into 'libinolock'...
-    remote: Counting objects: 10, done.
-    remote: Compressing objects: 100% (6/6), done.
-    remote: Total 10 (delta 1), reused 0 (delta 0)
-    Unpacking objects: 100% (10/10), done.
-    Checking connectivity... done.
+    $ mkdir -p ~/sketchbook
+    $ cd ~/sketchbook
+    $ git clone https://gitlab.com/tuxredux/libinolock.git
 
 ### Hardware
 *Coming Soon*
@@ -71,8 +65,8 @@ Set `bool L12_R_SERVO` to `true` or `false` in `linearServo.ino`.
 *Coming Soon*
 
 ## Resources
- - [Servo Arduino Reference](https://www.arduino.cc/en/Reference/Servo)
- - [Original Door Lock Project](http://www.therpf.com/showthread.php?t=245997)
+ - [Original Lock Project](http://www.therpf.com/showthread.php?t=245997)
+ - [Arduino Servo Reference](https://www.arduino.cc/en/Reference/Servo)
 
 ## Development
 See [CONTRIBUTING](CONTRIBUTING.md)
@@ -81,13 +75,9 @@ See [CONTRIBUTING](CONTRIBUTING.md)
 See [CHANGELOG](CHANGELOG.md)
 
 ## Credits
-Created By [/u/TuxReduX](https://gitlab.com/u/tuxredux/projects)
-
 See [AUTHORS](AUTHORS.md)
 
 ## License
-[Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)
-
 See [LICENSE](LICENSE), [NOTICE](NOTICE)
 
 [1]: http://www.actuonix.com/L12_R_Linear_Servo_For_Radio_Control_p/l12-r.htm
