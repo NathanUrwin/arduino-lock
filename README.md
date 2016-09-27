@@ -1,5 +1,5 @@
 # libinolock
-Arduino Lock Library. Remote Controlled Security!
+Arduino Lock Library. **Remote Controlled Security!**
 
 ## Features
  - 315MHz RF Momentary Receiver Support
