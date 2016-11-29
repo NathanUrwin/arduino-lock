@@ -16,6 +16,6 @@ Make sure to have atomic commits and contextual commit messages!
 
 [Check out this awesome blog post by Chris Beams for more information.][3]
 
-[1]: https://gitlab.com/tuxredux/libinolock/issues/new
-[2]: https://gitlab.com/tuxredux/libinolock/merge_requests/new
+[1]: https://gitlab.com/tuxredux/lib-ino-lock/issues/new
+[2]: https://gitlab.com/tuxredux/lib-ino-lock/merge_requests/new
 [3]: http://chris.beams.io/posts/git-commit/

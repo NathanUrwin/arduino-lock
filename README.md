@@ -1,5 +1,5 @@
-# libinolock
-Arduino Lock Library. **Remote Controlled Security!**
+# lib-ino-lock
+**Arduino Lock Library**. Remote Controlled Security!
 
 ## Features
  - 315MHz RF Momentary Receiver Support
@@ -46,7 +46,7 @@ Arduino Lock Library. **Remote Controlled Security!**
 ### Software
     $ mkdir -p ~/sketchbook
     $ cd ~/sketchbook
-    $ git clone https://gitlab.com/tuxredux/libinolock.git
+    $ git clone https://gitlab.com/tuxredux/lib-ino-lock.git
 
 ### Hardware
 *Coming Soon*
@@ -56,7 +56,7 @@ Set `bool L12_R_SERVO` to `true` or `false` in `linearServo.ino`.
 
 ## Usage
  1. Run the Arduino IDE.
- 2. Select `File > Sketchbook > libinolock > linearServo`.
+ 2. Select `File > Sketchbook > lib-ino-lock > linearServo`.
  3. Setup and Connect the Arduino board to PC.
  4. Compile and Upload to the Arduino board.
  5. Mount your new door lock and try it out!
