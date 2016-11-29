@@ -8,7 +8,8 @@
 
 ## Upcoming
  - Finish documentation
- - Spektrum AR500 Receiver Support
+ - AR500/DX5e support
+ - Add unit tests
  - Indiegogo campaign
 
 ## Requirements
@@ -44,9 +45,9 @@
 ## Installation
 
 ### Software
-    $ mkdir -p ~/sketchbook
+    $ mkdir -vp ~/sketchbook
     $ cd ~/sketchbook
-    $ git clone https://gitlab.com/tuxredux/lib-ino-lock.git
+    $ git clone https://github.com/tuxredux/lib-ino-lock.git
 
 ### Hardware
 *Coming Soon*
