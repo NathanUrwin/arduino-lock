@@ -6,7 +6,7 @@
  - L12-R Micro Linear Servo Support
  - ProtonRev2 Linear Servo Extender Support
 
-## Upcoming
+### Upcoming
  - Finish documentation
  - AR500/DX5e support
  - Add unit tests
