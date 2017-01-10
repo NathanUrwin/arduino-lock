@@ -65,6 +65,8 @@ Set `bool L12_R_SERVO` to `true` or `false` in `linearServo.ino`.
 ## Example
 [![See the lock in action!](media/arduino-lock.gif "See the lock in action!")](https://www.youtube.com/watch?v=3oUJcEJb_TY)
 
+![The lock mounted and ready to go](media/arduino-lock-mounted.jpg "The lock mounted and ready to go")
+
 ## Resources
  - [Original Lock Project](http://www.therpf.com/showthread.php?t=245997)
  - [Arduino Servo Reference](https://www.arduino.cc/en/Reference/Servo)
