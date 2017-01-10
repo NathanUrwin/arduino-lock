@@ -63,10 +63,7 @@ Set `bool L12_R_SERVO` to `true` or `false` in `linearServo.ino`.
  5. Mount your new door lock and try it out!
 
 ## Example
-
 [![See the lock in action!](media/arduino-lock.gif "See the lock in action!")](https://www.youtube.com/watch?v=3oUJcEJb_TY)
-
-![See the lock in action!](media/arduino-lock.gif "See the lock in action!")
 
 ## Resources
  - [Original Lock Project](http://www.therpf.com/showthread.php?t=245997)
