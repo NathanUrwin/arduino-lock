@@ -63,7 +63,7 @@ Set `bool L12_R_SERVO` to `true` or `false` in `linearServo.ino`.
  5. Mount your new door lock and try it out!
 
 ## Example
-[![Lock In Action](https://j.gifs.com/g5Dwll.gif)](https://www.youtube.com/watch?v=3oUJcEJb_TY)
+[![Lock In Action](http://share.gifyoutube.com/g5Dwll.gif)](https://www.youtube.com/watch?v=3oUJcEJb_TY)
 
 ## Resources
  - [Original Lock Project](http://www.therpf.com/showthread.php?t=245997)
