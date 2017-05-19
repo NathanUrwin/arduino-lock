@@ -1,4 +1,4 @@
-# lib-ino-lock
+# arduino-lock
 **Arduino Lock Library**. Remote Controlled Security!
 
 ## Features
@@ -47,7 +47,7 @@
 ### Software
     $ mkdir -vp ~/sketchbook
     $ cd ~/sketchbook
-    $ git clone https://github.com/tuxredux/lib-ino-lock.git
+    $ git clone https://github.com/tuxredux/arduino-lock.git
 
 ### Hardware
 *Coming Soon*
@@ -57,15 +57,15 @@ Set `bool L12_R_SERVO` to `true` or `false` in `linearServo.ino`.
 
 ## Usage
  1. Run the Arduino IDE.
- 2. Select `File > Sketchbook > lib-ino-lock > linearServo`.
+ 2. Select `File > Sketchbook > arduino-lock > linearServo`.
  3. Setup and Connect the Arduino board to PC.
  4. Compile and Upload to the Arduino board.
  5. Mount your new door lock and try it out!
 
 ## Example
-[![See the lock in action!](media/arduino-lock.gif "See the lock in action!")](https://www.youtube.com/watch?v=3oUJcEJb_TY)
+[![See the lock in action!](assets/arduino-lock.gif "See the lock in action!")](https://www.youtube.com/watch?v=3oUJcEJb_TY)
 
-![The lock mounted and ready to go](media/arduino-lock-mounted.jpg "The lock mounted and ready to go")
+![The lock mounted and ready to go](assets/arduino-lock-mounted.jpg "The lock mounted and ready to go")
 
 ## Resources
  - [Original Lock Project](http://www.therpf.com/showthread.php?t=245997)
