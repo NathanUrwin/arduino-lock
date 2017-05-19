@@ -1,5 +1,5 @@
 # arduino-lock
-**Arduino Lock Library**. Remote Controlled Security!
+Remote Controlled Security!
 
 ## Features
  - 315MHz RF Momentary Receiver Support
