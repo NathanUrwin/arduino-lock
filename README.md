@@ -43,14 +43,9 @@ Remote Controlled Security!
  - [Spektrum DX5e Transmitter][3] (Optional)
 
 ## Installation
-
-### Software
     $ mkdir -vp ~/sketchbook
     $ cd ~/sketchbook
     $ git clone https://github.com/tuxredux/arduino-lock.git
-
-### Hardware
-*Coming Soon*
 
 ## Configuration
 Set `bool L12_R_SERVO` to `true` or `false` in `linearServo.ino`.
