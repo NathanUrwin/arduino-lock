@@ -52,7 +52,7 @@ Set `bool L12_R_SERVO` to `true` or `false` in `linearServo.ino`.
 
 ## Usage
  1. Run the Arduino IDE.
- 2. Select `File > Sketchbook > arduino-lock > linearServo`.
+ 2. Select `File > Sketchbook > arduino-lock > src`.
  3. Setup and Connect the Arduino board to PC.
  4. Compile and Upload to the Arduino board.
  5. Mount your new door lock and try it out!
