@@ -78,7 +78,7 @@ See [AUTHORS](AUTHORS.md)
 ## License
 See [LICENSE](LICENSE), [NOTICE](NOTICE)
 
-[1]: http://www.actuonix.com/L12_R_Linear_Servo_For_Radio_Control_p/l12-r.htm
+[1]: https://www.actuonix.com/L12-R-Linear-Servo-For-Radio-Control-p/l12-r-.htm
 [2]: https://github.com/tscha70/3DPrinterSTLFiles/tree/master/Proton%20Rev%202%20-%20Easter%20Edition
 [3]: http://www.spektrumrc.com/Products/Default.aspx?ProdId=SPM5500
 [4]: http://www.spektrumrc.com/Products/Default.aspx?ProdId=SPMAR500
