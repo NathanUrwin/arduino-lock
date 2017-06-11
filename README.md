@@ -58,9 +58,11 @@ Set `bool L12_R_SERVO` to `true` or `false` in `linearServo.ino`.
  5. Mount your new door lock and try it out!
 
 ## Example
-[![See the lock in action!](assets/arduino-lock.gif "See the lock in action!")](https://www.youtube.com/watch?v=3oUJcEJb_TY)
+[![See the lock in action!](assets/images/L12-R.gif "See the lock in action!")](https://www.youtube.com/watch?v=3oUJcEJb_TY)
 
-![The lock mounted and ready to go](assets/arduino-lock-mounted.jpg "The lock mounted and ready to go")
+![The lock mounted and ready to go](assets/images/L12-R-mounted.jpg "The lock mounted and ready to go")
+
+![ProtonRev2 Example](assets/images/ProtonRev2.gif "ProtonRev2 Example")
 
 ## Resources
  - [Original Lock Project](http://www.therpf.com/showthread.php?t=245997)
@@ -78,7 +80,7 @@ See [AUTHORS](AUTHORS.md)
 ## License
 See [LICENSE](LICENSE), [NOTICE](NOTICE)
 
-[1]: https://www.actuonix.com/L12-R-Linear-Servo-For-Radio-Control-p/l12-r-.htm
+[1]: https://www.actuonix.com/L12-R-Linear-Servo-For-Radio-Control-p/l12-r.htm
 [2]: https://github.com/tscha70/3DPrinterSTLFiles/tree/master/Proton%20Rev%202%20-%20Easter%20Edition
 [3]: http://www.spektrumrc.com/Products/Default.aspx?ProdId=SPM5500
 [4]: http://www.spektrumrc.com/Products/Default.aspx?ProdId=SPMAR500
