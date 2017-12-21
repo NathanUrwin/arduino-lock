@@ -78,7 +78,7 @@ See [CHANGELOG](CHANGELOG.md)
 See [AUTHORS](AUTHORS.md)
 
 ## License
-See [LICENSE](LICENSE), [NOTICE](NOTICE)
+See [LICENSE](LICENSE)
 
 [1]: https://www.actuonix.com/L12-R-Linear-Servo-For-Radio-Control-p/l12-r.htm
 [2]: https://github.com/tscha70/3DPrinterSTLFiles/tree/master/Proton%20Rev%202%20-%20Easter%20Edition
