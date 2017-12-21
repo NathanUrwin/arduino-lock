@@ -1,4 +1,4 @@
-# arduino-lock
+# inolock
 Remote controlled security!
 
 ## Features
@@ -45,7 +45,7 @@ Remote controlled security!
 ## Installation
     $ mkdir -vp ~/sketchbook
     $ cd ~/sketchbook
-    $ git clone https://github.com/tuxredux/arduino-lock.git
+    $ git clone https://github.com/tuxredux/inolock.git
 
 ## Configuration
 Set `bool L12_R_SERVO` to `true` or `false` in `linearServo.ino`.
