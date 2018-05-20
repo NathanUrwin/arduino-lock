@@ -10,7 +10,7 @@ script and a step-by-step guide on how to create the prop replica using
 [Arduino Uno hardware](https://www.arduino.cc/) and other assorted tools.
 
 _**Disclaimer:** This is just a **hobby** project and provides absolutely no
-guarantee of security or warranty of any kind. Use at your own risk!!!_
+warranty of any kind. Use at your own risk!_
 
 ### Table of Contents
 - [Features](#features)
@@ -20,11 +20,9 @@ guarantee of security or warranty of any kind. Use at your own risk!!!_
   - [Tools](#tools)
   - [Hardware](#hardware)
 - [Installation](#installation)
-- [Configuration](#configuration)
+  - [Configuration](#configuration)
 - [Usage](#usage)
-- [Example](#example)
-  - [L12-R](#l12-r)
-  - [ProtonRev2](#protonrev2)
+  - [Example](#example)
 - [Resources](#resources)
 - [Development](#development)
   - [Future](#future)
@@ -46,7 +44,7 @@ guarantee of security or warranty of any kind. Use at your own risk!!!_
 
 ### Software
 - [Arduino IDE](https://www.arduino.cc/en/Main/Software)
-- [Git](https://git-scm.com/downloads)
+- [Git](https://git-scm.com/downloads) (Optional)
 
 ### Tools
 - Power Drill and Drill/Driver Bits
@@ -63,14 +61,14 @@ guarantee of security or warranty of any kind. Use at your own risk!!!_
   1. [L12-R Micro Linear Servo](https://www.actuonix.com/L12-R-Linear-Servo-For-Radio-Control-p/l12-r.htm)
   2. [ProtonRev2 Linear Servo Extender](https://github.com/tscha70/3DPrinterSTLFiles/tree/master/Proton%20Rev%202%20-%20Easter%20Edition) for [SG92R Micro Servo](https://duckduckgo.com/?q=SG92R+Micro+Servo)
 - [Arduino Uno Rev3 Micro controller](https://duckduckgo.com/?q=Arduino+Uno)
-- Arduino Uno Power Adapter
-- 170 Points Breadboard
+- [Arduino Uno Power Supply](https://duckduckgo.com/?q=arduino+uno+power+supply)
+- [170 Point Mini Breadboard](https://duckduckgo.com/?q=170+point+mini+breadboard)
 - 4 3/4" x 4 3/4" x 1/2" Plate
-- 1/2" Pipe Strap or similar
+- [1/2" Pipe Strap](https://duckduckgo.com/?q=1%2F2+inch+pipe+strap) or similar
 - Screws, Nuts, and Bolts
-- Male to Male Jumper Wires
-- 315MHz Spring Antenna (Recommended)
-- Arduino Uno Case (Optional)
+- [22 AWG Solid-core Wire](https://duckduckgo.com/?q=22+AWG+Solid-core+Wire)
+- [315MHz Spring Antenna](https://duckduckgo.com/?q=315MHz+Spring+Antenna) (Recommended)
+- [Arduino Uno Case](https://duckduckgo.com/?q=arduino+uno+case) (Optional)
 - [Spektrum AR500 Receiver](http://www.spektrumrc.com/Products/Default.aspx?ProdId=SPMAR500) (Optional)
 - [Spektrum DX5e Transmitter](http://www.spektrumrc.com/Products/Default.aspx?ProdId=SPM5500) (Optional)
 
@@ -81,7 +79,7 @@ $ cd ~/sketchbook
 $ git clone https://github.com/nathanurwin/arduino-lock.git
 ```
 
-## Configuration
+### Configuration
 Set `bool L12_R_SERVO` to `true` or `false` in `linearServo.ino`.
 
 ## Usage
@@ -91,12 +89,9 @@ Set `bool L12_R_SERVO` to `true` or `false` in `linearServo.ino`.
 4. Compile and Upload to the Arduino board.
 5. Mount your new door lock and try it out!
 
-## Example
-
-### L12-R
+### Example
 ![L12-R Example](images/L12-R.gif "L12-R Example")
 
-### ProtonRev2
 ![ProtonRev2 Example](images/ProtonRev2.gif "ProtonRev2 Example")
 
 ## Resources
