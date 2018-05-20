@@ -1,5 +1,16 @@
-# inolock
-Remote controlled security
+![L12-R](images/L12-R-256.png "L12-R")
+
+# arduino-lock
+:satellite::unlock: Remote Controlled Security
+
+This project was inspired by the [Replica Prop Forum thread by JohnnyNeutron](https://www.therpf.com/showthread.php?t=245997)
+which in turn was inspired by [*The Amazing Spider-Man 2* (2014)](https://www.imdb.com/title/tt1872181/)
+feature film, and consists of a simple Arduino [C++ software](https://github.com/trending/c++)
+script and a step-by-step guide on how to create the prop replica using
+[Arduino Uno hardware](https://www.arduino.cc/) and other assorted tools.
+
+_**Disclaimer:** This is just a **hobby** project and provides absolutely no
+guarantee of security or warranty of any kind. Use at your own risk!!!_
 
 ### Table of Contents
 - [Features](#features)
@@ -12,6 +23,8 @@ Remote controlled security
 - [Configuration](#configuration)
 - [Usage](#usage)
 - [Example](#example)
+  - [L12-R](#l12-r)
+  - [ProtonRev2](#protonrev2)
 - [Resources](#resources)
 - [Development](#development)
   - [Future](#future)
@@ -20,21 +33,20 @@ Remote controlled security
 - [License](#license)
 
 ## Features
-- 315MHz RF Momentary Receiver Support
+- 315MHz Receiver/Transmitter Support
 - L12-R Micro Linear Servo Support
-- ProtonRev2 Linear Servo Extender Support
+- SG92R Micro Servo Support
 
 ### Upcoming
-- Finish documentation
-- AR500/DX5e support
-- Add unit tests
-- Indiegogo campaign
+- Prop Replica Step-By-Step Guide
+- Spektrum AR500 Receiver Support
+- Spektrum DX5e Transmitter Support
 
 ## Requirements
 
 ### Software
-- [git](https://git-scm.com/downloads)
-- [arduino](https://www.arduino.cc/en/Main/Software)
+- [Arduino IDE](https://www.arduino.cc/en/Main/Software)
+- [Git](https://git-scm.com/downloads)
 
 ### Tools
 - Power Drill and Drill/Driver Bits
@@ -43,12 +55,14 @@ Remote controlled security
 - Soldering Iron and Solder (Recommended)
 
 ### Hardware
-- [U 9997 Keyed Bolt Lock](https://www.amazon.com/dp/B00176KXXA)
+- [U 9997 Keyed Bolt Lock](https://duckduckgo.com/?q=U+9997+Keyed+Bolt+Lock)
 - [315MHz RF Momentary Receiver](https://www.adafruit.com/products/1096)
 - [315MHz RF Keyfob Transmitter](https://www.adafruit.com/products/1095)
 - [Connecting Arm 3D Printer STL](https://www.thingiverse.com/download:1661462)
-- [L12-R Micro Linear Servo](https://www.actuonix.com/L12-R-Linear-Servo-For-Radio-Control-p/l12-r.htm) or [ProtonRev2 Linear Servo Extender](https://github.com/tscha70/3DPrinterSTLFiles/tree/master/Proton%20Rev%202%20-%20Easter%20Edition) for SG92R
-- Arduino Uno R3 Microcontroller
+- Linear Servo Kit
+  1. [L12-R Micro Linear Servo](https://www.actuonix.com/L12-R-Linear-Servo-For-Radio-Control-p/l12-r.htm)
+  2. [ProtonRev2 Linear Servo Extender](https://github.com/tscha70/3DPrinterSTLFiles/tree/master/Proton%20Rev%202%20-%20Easter%20Edition) for [SG92R Micro Servo](https://duckduckgo.com/?q=SG92R+Micro+Servo)
+- [Arduino Uno Rev3 Micro controller](https://duckduckgo.com/?q=Arduino+Uno)
 - Arduino Uno Power Adapter
 - 170 Points Breadboard
 - 4 3/4" x 4 3/4" x 1/2" Plate
@@ -64,7 +78,7 @@ Remote controlled security
 ```bash
 $ mkdir -vp ~/sketchbook
 $ cd ~/sketchbook
-$ git clone https://github.com/tuxredux/inolock.git
+$ git clone https://github.com/nathanurwin/arduino-lock.git
 ```
 
 ## Configuration
@@ -72,20 +86,21 @@ Set `bool L12_R_SERVO` to `true` or `false` in `linearServo.ino`.
 
 ## Usage
 1. Run the Arduino IDE.
-2. Select `File > Sketchbook > inolock > src`.
+2. Select `File > Sketchbook > arduino-lock > src`.
 3. Setup and Connect the Arduino board to PC.
 4. Compile and Upload to the Arduino board.
 5. Mount your new door lock and try it out!
 
 ## Example
-[![See the lock in action!](images/L12-R.gif "See the lock in action!")](https://www.youtube.com/watch?v=3oUJcEJb_TY)
 
-![The lock mounted and ready to go](images/L12-R-mounted.jpg "The lock mounted and ready to go")
+### L12-R
+![L12-R Example](images/L12-R.gif "L12-R Example")
 
+### ProtonRev2
 ![ProtonRev2 Example](images/ProtonRev2.gif "ProtonRev2 Example")
 
 ## Resources
-- [Original Lock Project](http://www.therpf.com/showthread.php?t=245997)
+- [The RPF Original Thread](http://www.therpf.com/showthread.php?t=245997)
 - [Arduino Servo Reference](https://www.arduino.cc/en/Reference/Servo)
 
 ## Development
