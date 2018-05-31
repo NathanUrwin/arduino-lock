@@ -28,6 +28,7 @@ warranty of any kind. Use at your own risk!_
   - [Example](#example)
 - [Resources](#resources)
 - [Development](#development)
+  - [Community](#community)
   - [Future](#future)
   - [History](#history)
 - [Credits](#credits)
@@ -123,6 +124,10 @@ Set `bool L12_R_SERVO` to `true` or `false` in `linearServo.ino`.
 ## Development
 
 See [CONTRIBUTING](CONTRIBUTING.md)
+
+### Community
+
+See [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md)
 
 ### Future
 
