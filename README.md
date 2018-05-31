@@ -28,9 +28,9 @@ warranty of any kind. Use at your own risk!_
   - [Example](#example)
 - [Resources](#resources)
 - [Development](#development)
-  - [Community](#community)
   - [Future](#future)
   - [History](#history)
+  - [Community](#community)
 - [Credits](#credits)
 - [License](#license)
 
@@ -125,10 +125,6 @@ Set `bool L12_R_SERVO` to `true` or `false` in `linearServo.ino`.
 
 See [CONTRIBUTING](CONTRIBUTING.md)
 
-### Community
-
-See [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md)
-
 ### Future
 
 See [ROADMAP](ROADMAP.md)
@@ -136,6 +132,10 @@ See [ROADMAP](ROADMAP.md)
 ### History
 
 See [CHANGELOG](CHANGELOG.md)
+
+### Community
+
+See [CODE OF CONDUCT](CODE_OF_CONDUCT.md)
 
 ## Credits
 
