@@ -1,7 +1,8 @@
+# arduino-lockrc
+
 ![L12-R](images/L12-R-256.png "L12-R")
 
-# arduino-lock
-:satellite::unlock: Remote Controlled Security
+Lock Remote-Control :satellite:
 
 This project was inspired by the [Replica Prop Forum thread by JohnnyNeutron](https://www.therpf.com/showthread.php?t=245997)
 which in turn was inspired by [*The Amazing Spider-Man 2* (2014)](https://www.imdb.com/title/tt1872181/)
@@ -12,7 +13,9 @@ script and a step-by-step guide on how to create the prop replica using
 _**Disclaimer:** This is just a **hobby** project and provides absolutely no
 warranty of any kind. Use at your own risk!_
 
-### Table of Contents
+## Table of Contents
+
+- [Table of Contents](#table-of-contents)
 - [Features](#features)
   - [Upcoming](#upcoming)
 - [Requirements](#requirements)
@@ -31,11 +34,13 @@ warranty of any kind. Use at your own risk!_
 - [License](#license)
 
 ## Features
+
 - 315MHz Receiver/Transmitter Support
 - L12-R Micro Linear Servo Support
 - SG92R Micro Servo Support
 
 ### Upcoming
+
 - Prop Replica Step-By-Step Guide
 - Spektrum AR500 Receiver Support
 - Spektrum DX5e Transmitter Support
@@ -43,16 +48,19 @@ warranty of any kind. Use at your own risk!_
 ## Requirements
 
 ### Software
+
 - [Arduino IDE](https://www.arduino.cc/en/Main/Software)
 - [Git](https://git-scm.com/downloads) (Optional)
 
 ### Tools
+
 - Power Drill and Drill/Driver Bits
 - Rotary Tool, Cut-Off Wheels, and Sanding Drums
 - Hot Glue Gun and Glue Sticks
 - Soldering Iron and Solder (Recommended)
 
 ### Hardware
+
 - [U 9997 Keyed Bolt Lock](https://duckduckgo.com/?q=U+9997+Keyed+Bolt+Lock)
 - [315MHz RF Momentary Receiver](https://www.adafruit.com/products/1096)
 - [315MHz RF Keyfob Transmitter](https://www.adafruit.com/products/1095)
@@ -73,16 +81,28 @@ warranty of any kind. Use at your own risk!_
 - [Spektrum DX5e Transmitter](http://www.spektrumrc.com/Products/Default.aspx?ProdId=SPM5500) (Optional)
 
 ## Installation
+
 ```bash
 $ mkdir -vp ~/sketchbook
+mkdir: created directory '~/sketchbook'
+
 $ cd ~/sketchbook
-$ git clone https://github.com/nathanurwin/arduino-lock.git
+
+$ git clone https://github.com/NathanUrwin/arduino-lockrc.git
+Cloning into 'arduino-lockrc'...
+remote: Counting objects: 132, done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 132 (delta 0), reused 1 (delta 0), pack-reused 129
+Receiving objects: 100% (132/132), 31.08 MiB | 2.40 MiB/s, done.
+Resolving deltas: 100% (56/56), done.
 ```
 
 ### Configuration
+
 Set `bool L12_R_SERVO` to `true` or `false` in `linearServo.ino`.
 
 ## Usage
+
 1. Run the Arduino IDE.
 2. Select `File > Sketchbook > arduino-lock > src`.
 3. Setup and Connect the Arduino board to PC.
@@ -90,25 +110,32 @@ Set `bool L12_R_SERVO` to `true` or `false` in `linearServo.ino`.
 5. Mount your new door lock and try it out!
 
 ### Example
+
 ![L12-R Example](images/L12-R.gif "L12-R Example")
 
 ![ProtonRev2 Example](images/ProtonRev2.gif "ProtonRev2 Example")
 
 ## Resources
+
 - [The RPF Original Thread](http://www.therpf.com/showthread.php?t=245997)
 - [Arduino Servo Reference](https://www.arduino.cc/en/Reference/Servo)
 
 ## Development
+
 See [CONTRIBUTING](CONTRIBUTING.md)
 
 ### Future
+
 See [ROADMAP](ROADMAP.md)
 
 ### History
+
 See [CHANGELOG](CHANGELOG.md)
 
 ## Credits
+
 See [AUTHORS](AUTHORS.md)
 
 ## License
+
 See [LICENSE](LICENSE)
