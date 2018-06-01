@@ -1,6 +1,6 @@
-# arduino-lockrc
+# lock
 
-Lock Remote-Control :satellite:
+Remote-Controlled :satellite:
 
 ![L12-R](images/L12-R-256.png "L12-R")
 
@@ -89,8 +89,8 @@ mkdir: created directory '~/sketchbook'
 
 $ cd ~/sketchbook
 
-$ git clone https://github.com/NathanUrwin/arduino-lockrc.git
-Cloning into 'arduino-lockrc'...
+$ git clone https://github.com/NathanUrwin/lock.git
+Cloning into 'lock'...
 remote: Counting objects: 132, done.
 remote: Compressing objects: 100% (3/3), done.
 remote: Total 132 (delta 0), reused 1 (delta 0), pack-reused 129
@@ -105,7 +105,7 @@ Set `bool L12_R_SERVO` to `true` or `false` in `linearServo.ino`.
 ## Usage
 
 1. Run the Arduino IDE.
-2. Select `File > Sketchbook > arduino-lock > src`.
+2. Select `File > Sketchbook > lock > src`.
 3. Setup and Connect the Arduino board to PC.
 4. Compile and Upload to the Arduino board.
 5. Mount your new door lock and try it out!
