@@ -13,6 +13,8 @@ env:
 
 install:
     - pip install -U platformio
+    - platformio update
+    - platformio lib install "AUnit"
 
 script:
     - platformio ci --board=uno

@@ -16,11 +16,10 @@ int SERVO_MAX = 170;
 int SERVO_MIN = 10;
 
 bool aButtonSwitch = true;
-bool bButtonSwitch= false;
+bool bButtonSwitch = false;
 Servo linearServo;
 
-void setup()
-{
+void setup() {
   if (DEBUG_MODE) {
     Serial.begin(9600);
   }
@@ -29,8 +28,7 @@ void setup()
   linearServo.attach(SERVO_PIN);
 }
 
-void loop()
-{
+void readButtons() {
   int aButtonStatus = digitalRead(A_BUTTON_PIN);
   int bButtonStatus = digitalRead(B_BUTTON_PIN);
   if (DEBUG_MODE) {
@@ -47,6 +45,9 @@ void loop()
     bButtonSwitch = true;
     aButtonSwitch = false;
   }
+}
+
+void writeServo() {
   if (DEBUG_MODE) {
     Serial.print("aButtonSwitch:");
     Serial.print(aButtonSwitch);
@@ -73,5 +74,10 @@ void loop()
       bButtonSwitch = false;
     }
   }
+}
+
+void loop() {
+  readButtons();
+  writeServo();
   delay(LOOP_DELAY);
 }

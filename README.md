@@ -1,6 +1,6 @@
-# lock [![Build Status](https://travis-ci.com/NathanUrwin/lock.svg?branch=master)](https://travis-ci.com/NathanUrwin/lock)
+# rc-lock [![Build Status](https://travis-ci.com/NathanUrwin/lock.svg?branch=master)](https://travis-ci.com/NathanUrwin/lock)
 
-> Remote-Controlled :satellite:
+> Remote-controlled lock :unlock:
 
 ![L12-R](images/L12-R-256.png "L12-R")
 
@@ -25,7 +25,7 @@ warranty of any kind. Use at your own risk!_
 - [Installation](#installation)
   - [Configuration](#configuration)
 - [Usage](#usage)
-  - [Example](#example)
+  - [Examples](#examples)
 - [Resources](#resources)
 - [Development](#development)
   - [Future](#future)
@@ -105,12 +105,12 @@ Set `bool L12_R_SERVO` to `true` or `false` in `linearServo.ino`.
 ## Usage
 
 1. Run the Arduino IDE.
-2. Select `File > Sketchbook > lock > src`.
+2. Select `File > Sketchbook > rc-lock > src > RcLock`.
 3. Setup and Connect the Arduino board to PC.
 4. Compile and Upload to the Arduino board.
 5. Mount your new door lock and try it out!
 
-### Example
+### Examples
 
 ![L12-R Example](images/L12-R.gif "L12-R Example")
 
