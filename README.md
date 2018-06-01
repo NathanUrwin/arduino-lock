@@ -1,6 +1,6 @@
 # lock
 
-Remote-Controlled :satellite:
+> Remote-Controlled :satellite:
 
 ![L12-R](images/L12-R-256.png "L12-R")
 
