@@ -7,8 +7,8 @@ const int SERVO_PIN = 7;
 
 // true for serial output
 bool DEBUG_MODE = true;
-// deliberately left blank
-bool L12_R_SERVO = ;
+// change to true if needed
+bool L12_R_SERVO = false;
 
 int L12_R_MAX = 1750;
 int L12_R_MIN = 1050;
