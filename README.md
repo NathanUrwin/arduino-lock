@@ -51,7 +51,7 @@ warranty of any kind. Use at your own risk!_
 ### Software
 
 - [Arduino IDE](https://www.arduino.cc/en/Main/Software)
-- [Git](https://git-scm.com/downloads) (Optional)
+- [Git](https://git-scm.com/downloads)
 
 ### Tools
 
@@ -66,7 +66,7 @@ warranty of any kind. Use at your own risk!_
 - [315MHz RF Momentary Receiver](https://www.adafruit.com/products/1096)
 - [315MHz RF Keyfob Transmitter](https://www.adafruit.com/products/1095)
 - [Connecting Arm 3D Printer STL](https://www.thingiverse.com/download:1661462)
-- Linear Servo Kit
+- Linear Servo Kit (Choose one of two options):
   1. [L12-R Micro Linear Servo](https://www.actuonix.com/L12-R-Linear-Servo-For-Radio-Control-p/l12-r.htm)
   2. [ProtonRev2 Linear Servo Extender](https://github.com/tscha70/3DPrinterSTLFiles/tree/master/Proton%20Rev%202%20-%20Easter%20Edition) for [SG92R Micro Servo](https://duckduckgo.com/?q=SG92R+Micro+Servo)
 - [Arduino Uno Rev3 Micro controller](https://duckduckgo.com/?q=Arduino+Uno)
