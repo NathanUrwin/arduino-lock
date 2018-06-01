@@ -1,4 +1,4 @@
-# lock
+# lock [![Build Status](https://travis-ci.com/NathanUrwin/lock.svg?branch=master)](https://travis-ci.com/NathanUrwin/lock)
 
 > Remote-Controlled :satellite:
 
