@@ -4,7 +4,7 @@
 
 ![L12-R](images/L12-R-256.png "L12-R")
 
-This project was inspired by the [Replica Prop Forum thread by JohnnyNeutron](https://www.therpf.com/showthread.php?t=245997)
+This project was inspired by [The Replica Prop Forum thread by JohnnyNeutron](https://www.therpf.com/showthread.php?t=245997)
 which in turn was inspired by [*The Amazing Spider-Man 2* (2014)](https://www.imdb.com/title/tt1872181/)
 feature film, and consists of a simple Arduino [C++ software](https://github.com/trending/c++)
 script and a step-by-step guide ([coming soon](#upcoming)) on how to create the prop replica using
@@ -89,8 +89,8 @@ mkdir: created directory '~/sketchbook'
 
 $ cd ~/sketchbook
 
-$ git clone https://github.com/NathanUrwin/lock.git
-Cloning into 'lock'...
+$ git clone https://github.com/NathanUrwin/rc-lock.git
+Cloning into 'rc-lock'...
 remote: Counting objects: 132, done.
 remote: Compressing objects: 100% (3/3), done.
 remote: Total 132 (delta 0), reused 1 (delta 0), pack-reused 129

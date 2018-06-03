@@ -20,6 +20,6 @@ Make sure to have atomic commits and contextual commit messages!
 
 [Check out this awesome blog post by Chris Beams for more information.][3]
 
-[1]: https://github.com/NathanUrwin/lock/issues/new
-[2]: https://github.com/NathanUrwin/lock/compare
+[1]: https://github.com/NathanUrwin/rc-lock/issues/new
+[2]: https://github.com/NathanUrwin/rc-lock/compare
 [3]: http://chris.beams.io/posts/git-commit/
