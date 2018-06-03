@@ -1,4 +1,4 @@
-# rc-lock [![Build Status](https://travis-ci.com/NathanUrwin/rc-lock.svg?branch=master)](https://travis-ci.com/NathanUrwin/rc-lock)
+# rc-lock [![Build Status](https://travis-ci.com/NathanUrwin/rc-lock.svg?branch=master)](https://travis-ci.com/NathanUrwin/rc-lock) ![Development status](https://img.shields.io/badge/status-planning-blue.svg)
 
 > Remote-controlled lock :unlock:
 
