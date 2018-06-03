@@ -1,4 +1,4 @@
-# rc-lock [![Development status](https://img.shields.io/badge/status-planning-blue.svg)](ROADMAP.md) [![Build Status](https://travis-ci.com/NathanUrwin/rc-lock.svg?branch=master)](https://travis-ci.com/NathanUrwin/rc-lock)
+# rc-lock [![Development status](https://img.shields.io/badge/status-planning-red.svg)](ROADMAP.md) [![Build Status](https://travis-ci.com/NathanUrwin/rc-lock.svg?branch=master)](https://travis-ci.com/NathanUrwin/rc-lock)
 
 > Remote-controlled lock :unlock:
 
@@ -7,7 +7,7 @@
 This project was inspired by the [Replica Prop Forum thread by JohnnyNeutron](https://www.therpf.com/showthread.php?t=245997)
 which in turn was inspired by [*The Amazing Spider-Man 2* (2014)](https://www.imdb.com/title/tt1872181/)
 feature film, and consists of a simple Arduino [C++ software](https://github.com/trending/c++)
-script and a step-by-step guide on how to create the prop replica using
+script and a step-by-step guide ([coming soon](#upcoming)) on how to create the prop replica using
 [Arduino Uno hardware](https://www.arduino.cc/) and other assorted tools.
 
 _**Disclaimer:** This is just a **hobby** project and provides absolutely no
