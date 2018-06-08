@@ -28,7 +28,7 @@ warranty of any kind. Use at your own risk!_
   - [Tools](#tools)
   - [Hardware](#hardware)
 - [Installation](#installation)
-- [Configuration](#configuration)
+  - [Configuration](#configuration)
 - [Usage](#usage)
   - [Examples](#examples)
 - [Resources](#resources)
@@ -103,7 +103,7 @@ Receiving objects: 100% (132/132), 31.08 MiB | 2.40 MiB/s, done.
 Resolving deltas: 100% (56/56), done.
 ```
 
-## Configuration
+### Configuration
 
 Set `bool L12_R_SERVO` to `true` or `false` in `linearServo.ino`.
 
