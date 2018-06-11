@@ -105,7 +105,7 @@ Resolving deltas: 100% (56/56), done.
 
 ### Configuration
 
-Set `bool L12_R_SERVO` to `true` or `false` in `linearServo.ino`.
+Set `bool L12_R_SERVO` to `true` or `false` in `RcLock.ino`.
 
 ## Usage
 
