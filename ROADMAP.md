@@ -15,5 +15,5 @@
 1. Release Pre-Alpha (current codebase)
 2. Add prop replica screenshot guide
 3. Release Alpha version
-4. Add tests with [AUnit](https://github.com/bxparks/AUnit)
+4. Add Arduino tests with [AUnit](https://github.com/bxparks/AUnit)
 5. Release Beta version
