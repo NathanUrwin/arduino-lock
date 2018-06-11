@@ -1,6 +1,6 @@
 # Authors
 
-## Project Manager
+## Core Contributor
 
 [Nathan Urwin](https://github.com/NathanUrwin) &lt;me@nathanurwin.com&gt;
 
