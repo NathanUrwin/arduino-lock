@@ -9,7 +9,7 @@
 
 ![L12-R](images/L12-R-256.png "L12-R")
 
-This project was inspired by [The Replica Prop Forum thread by JohnnyNeutron](https://www.therpf.com/showthread.php?t=245997)
+This project is inspired by [The Replica Prop Forum thread by JohnnyNeutron](https://www.therpf.com/showthread.php?t=245997)
 which in turn was inspired by [*The Amazing Spider-Man 2* (2014)](https://www.imdb.com/title/tt1872181/)
 feature film, and consists of a simple Arduino [C++ software](https://github.com/trending/c++)
 script and a step-by-step guide ([coming soon](#upcoming)) on how to create the prop replica using
