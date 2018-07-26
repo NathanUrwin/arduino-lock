@@ -1,9 +1,9 @@
 # rc-lock
 
-![GitHub release](https://img.shields.io/badge/release-v0-blue.svg)
-[![Development status](https://img.shields.io/badge/status-planning-red.svg)](ROADMAP.md)
-[![Build Status](https://img.shields.io/badge/build-unknown-lightgrey.svg)](https://travis-ci.com/NathanUrwin/rc-lock)
-![Build coverage](https://img.shields.io/badge/codecov-0%25-lightgrey.svg)
+[![Tagged Release](https://img.shields.io/badge/release-v0.1.0--prealpha-blue.svg)](https://github.com/NathanUrwin/rc-lock/releases/v0.1.0-prealpha)
+[![Development Status](https://img.shields.io/badge/status-pre--alpha-red.svg)](ROADMAP.md)
+[![Build Status](https://img.shields.io/badge/build-unknown-lightgrey.svg)](https://travis-ci.org)
+[![Build Coverage](https://img.shields.io/badge/coverage-0%25-lightgrey.svg)](https://codecov.io)
 
 > Remote-controlled lock :unlock:
 
@@ -15,7 +15,7 @@ feature film, and consists of a simple Arduino [C++ software](https://github.com
 script and a step-by-step guide ([coming soon](#upcoming)) on how to create the prop replica using
 [Arduino Uno hardware](https://www.arduino.cc/) and other assorted tools.
 
-_**Disclaimer:** This is just a **hobby** project and provides absolutely no
+_**Warning:** This is just a **hobby** project and provides absolutely no
 warranty of any kind. Use at your own risk!_
 
 ## Table of Contents
@@ -91,9 +91,7 @@ warranty of any kind. Use at your own risk!_
 ```bash
 $ mkdir -vp ~/sketchbook
 mkdir: created directory '~/sketchbook'
-
 $ cd ~/sketchbook
-
 $ git clone https://github.com/NathanUrwin/rc-lock.git
 Cloning into 'rc-lock'...
 remote: Counting objects: 132, done.

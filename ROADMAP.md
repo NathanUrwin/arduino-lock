@@ -2,18 +2,19 @@
 
 ## Development Status
 
-1. [x] ![Development status](https://img.shields.io/badge/status-planning-red.svg)
-2. [ ] ![Development status](https://img.shields.io/badge/status-pre--alpha-orange.svg)
-3. [ ] ![Development status](https://img.shields.io/badge/status-alpha-yellow.svg)
-4. [ ] ![Development status](https://img.shields.io/badge/status-beta-green.svg)
-5. [ ] ![Development status](https://img.shields.io/badge/status-stable-brightgreen.svg)
-6. [ ] ![Development status](https://img.shields.io/badge/status-mature-blue.svg)
-7. [ ] ![Development status](https://img.shields.io/badge/status-inactive-lightgrey.svg)
+- [ ] ![Development status](https://img.shields.io/badge/status-planning-lightgrey.svg?longCache=true)
+- [x] ![Development status](https://img.shields.io/badge/status-pre--alpha-red.svg?longCache=true)
+- [ ] ![Development status](https://img.shields.io/badge/status-alpha-yellow.svg?longCache=true)
+- [ ] ![Development status](https://img.shields.io/badge/status-beta-brightgreen.svg?longCache=true)
+- [ ] ![Development status](https://img.shields.io/badge/status-stable-blue.svg?longCache=true)
+- [ ] ![Development status](https://img.shields.io/badge/status-mature-8A2BE2.svg?longCache=true)
+- [ ] ![Development status](https://img.shields.io/badge/status-inactive-lightgrey.svg?longCache=true)
 
 ## Project Milestones
 
-1. Release Pre-Alpha (current codebase)
-2. Add prop replica screenshot guide
-3. Release Alpha version
-4. Add Arduino tests with [AUnit](https://github.com/bxparks/AUnit)
-5. Release Beta version
+- Release [Version 0.1.0 (Pre-Alpha)](https://github.com/NathanUrwin/rc-lock/releases/tag/v0.1.0)
+  - Current codebase
+- Release [Version 0.2.0 (Alpha)](https://github.com/NathanUrwin/rc-lock/milestones)
+  - Add prop replica screenshot guide
+- Release [Version 0.x.0 (Beta)](https://github.com/NathanUrwin/rc-lock/milestones)
+  - Add Arduino tests with [AUnit](https://github.com/bxparks/AUnit)
