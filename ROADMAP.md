@@ -12,7 +12,7 @@
 
 ## Project Milestones
 
-- Release [Version 0.1.0 (Pre-Alpha)](https://github.com/NathanUrwin/rc-lock/releases/tag/v0.1.0)
+- Release [Version 0.1.0 (Pre-Alpha)](https://github.com/NathanUrwin/rc-lock/releases/v0.1.0-prealpha)
   - Current codebase
 - Release [Version 0.2.0 (Alpha)](https://github.com/NathanUrwin/rc-lock/milestones)
   - Add prop replica screenshot guide
