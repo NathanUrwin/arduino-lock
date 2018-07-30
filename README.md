@@ -56,7 +56,6 @@ warranty of any kind. Use at your own risk!_
 ### Software
 
 - [Arduino IDE](https://www.arduino.cc/en/Main/Software)
-- [Git](https://git-scm.com/downloads)
 
 ### Tools
 
