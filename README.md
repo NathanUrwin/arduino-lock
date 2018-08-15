@@ -1,11 +1,12 @@
-# rc-lock
+# rc-lock-replica
 
-[![Tagged Release](https://img.shields.io/badge/release-v0.1.0--prealpha-blue.svg)](https://github.com/NathanUrwin/rc-lock/releases/v0.1.0-prealpha)
+[![Tagged Release](https://img.shields.io/badge/release-v0.1.0--prealpha-blue.svg)](https://github.com/NathanUrwin/rc-lock-replica/releases/v0.1.0-prealpha)
 [![Development Status](https://img.shields.io/badge/status-pre--alpha-red.svg)](ROADMAP.md)
 [![Build Status](https://img.shields.io/badge/build-unknown-lightgrey.svg)](https://travis-ci.org)
+[![Build Status](https://img.shields.io/badge/build-pending-lightgrey.svg)](https://www.appveyor.com)
 [![Build Coverage](https://img.shields.io/badge/coverage-0%25-lightgrey.svg)](https://codecov.io)
 
-> Remote-controlled lock :unlock:
+> Remote-controlled prop replica lock :unlock:
 
 ![L12-R](images/L12-R-256.png "L12-R")
 
@@ -91,8 +92,8 @@ warranty of any kind. Use at your own risk!_
 $ mkdir -vp ~/sketchbook
 mkdir: created directory '~/sketchbook'
 $ cd ~/sketchbook
-$ git clone https://github.com/NathanUrwin/rc-lock.git
-Cloning into 'rc-lock'...
+$ git clone https://github.com/NathanUrwin/rc-lock-replica.git
+Cloning into 'rc-lock-replica'...
 remote: Counting objects: 132, done.
 remote: Compressing objects: 100% (3/3), done.
 remote: Total 132 (delta 0), reused 1 (delta 0), pack-reused 129
@@ -107,7 +108,7 @@ Set `bool L12_R_SERVO` to `true` or `false` in `RcLock.ino`.
 ## Usage
 
 1. Run the Arduino IDE.
-2. Select `File > Sketchbook > rc-lock > src > RcLock`.
+2. Select `File > Sketchbook > rc-lock-replica > src > RcLock`.
 3. Setup and Connect the Arduino board to PC.
 4. Compile and Upload to the Arduino board.
 5. Mount your new door lock and try it out!
