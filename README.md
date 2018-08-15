@@ -1,10 +1,10 @@
 # rc-lock-replica
 
-[![Tagged Release](https://img.shields.io/badge/release-v0.1.0--prealpha-blue.svg)](https://github.com/NathanUrwin/rc-lock-replica/releases/v0.1.0-prealpha)
-[![Development Status](https://img.shields.io/badge/status-pre--alpha-red.svg)](ROADMAP.md)
-[![Build Status](https://img.shields.io/badge/build-unknown-lightgrey.svg)](https://travis-ci.org)
-[![Build Status](https://img.shields.io/badge/build-pending-lightgrey.svg)](https://www.appveyor.com)
-[![Build Coverage](https://img.shields.io/badge/coverage-0%25-lightgrey.svg)](https://codecov.io)
+[![Tagged Release](https://img.shields.io/badge/release-v0.1.0--prealpha-blue.svg?longCache=true)](https://github.com/NathanUrwin/rc-lock-replica/releases/v0.1.0-prealpha)
+[![Development Status](https://img.shields.io/badge/status-pre--alpha-red.svg?longCache=true)](ROADMAP.md)
+[![Build Status](https://img.shields.io/badge/build-unknown-lightgrey.svg?longCache=true)](https://travis-ci.org)
+[![Build Status](https://img.shields.io/badge/build-pending-lightgrey.svg?longCache=true)](https://www.appveyor.com)
+[![Build Coverage](https://img.shields.io/badge/coverage-0%25-lightgrey.svg?longCache=true)](https://codecov.io)
 
 > Remote-controlled prop replica lock :unlock:
 
